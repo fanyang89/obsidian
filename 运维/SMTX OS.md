@@ -129,13 +129,11 @@ mailx
 
 # 删除日志收集文件夹的 UUID
 
-#trim-uuid
-
 ```python
+# trim uuid
 python -c 'import glob, os; a = glob.glob("./*/"); list(map(lambda xy: os.rename(xy[0], xy[1]), filter(lambda xy: xy[1].count("_") == 3, [(x, y[: y.rfind("_")]) for (x, y) in zip(a, a)])))'
 ```
 
-## 列出所有的 iSCSI LUN
 
 ## 更新 cluster uuid
 
