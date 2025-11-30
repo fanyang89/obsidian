@@ -1,0 +1,13 @@
+{
+  "queries": [
+    {
+      "createdAt": "2024/08/14 13:35:30",
+      "id": "202408141335300",
+      "pinnedAt": "",
+      "querystring": "[{\"type\":\"TAG\",\"value\":{\"operator\":\"CONTAIN\",\"value\":\"rust\"},\"relation\":\"AND\"}]",
+      "title": "Rust",
+      "updatedAt": "2024/08/14 13:35:30",
+      "userId": "Thino"
+    }
+  ]
+}

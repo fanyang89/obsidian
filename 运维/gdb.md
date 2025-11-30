@@ -1,0 +1,3 @@
+```
+set python print-stack full
+```

@@ -1,0 +1,17 @@
+{
+  "baseFontSize": 16,
+  "theme": "obsidian",
+  "enabledCssSnippets": [
+    "center-img",
+    "feishu"
+  ],
+  "translucency": false,
+  "cssTheme": "",
+  "textFontFamily": "方正屏显雅宋_GBK",
+  "monospaceFontFamily": "Cascadia Code",
+  "interfaceFontFamily": "",
+  "baseFontSizeAction": false,
+  "accentColor": "",
+  "showViewHeader": true,
+  "showRibbon": true
+}

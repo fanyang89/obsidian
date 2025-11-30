@@ -1,0 +1,10 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.hasTag("api-key")
+    properties:
+      - name
+      - tags
+      - created

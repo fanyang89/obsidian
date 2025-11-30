@@ -1,0 +1,133 @@
+{
+  "main": {
+    "id": "42cf7ceafe6037c7",
+    "type": "split",
+    "children": [
+      {
+        "id": "0c0a2a6576e259af",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "C++.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a3beacabda95ff3b",
+    "type": "split",
+    "children": [
+      {
+        "id": "71a5744be8559fb0",
+        "type": "tabs",
+        "dimension": 62.908011869436194,
+        "children": [
+          {
+            "id": "4b675c507cebcf32",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "e741726390d4bb5d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "git config",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "5e97966fc552b82a",
+        "type": "tabs",
+        "dimension": 37.0919881305638,
+        "children": [
+          {
+            "id": "0b8fd1a45aaba155",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "C++.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 315.5,
+    "collapsed": true
+  },
+  "right": {
+    "id": "f8b02c867520593d",
+    "type": "split",
+    "children": [
+      {
+        "id": "74e2a454e4aab337",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "29d21fb9aeb172af",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "C++.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "30038010b717f635",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 242,
+    "collapsed": true
+  },
+  "active": "0c0a2a6576e259af",
+  "lastOpenFiles": [
+    "命令行/dockerhub.md",
+    "vdbench 2022-10-10.md",
+    "ZBS Spec.md",
+    "命令行/Cmdline.md",
+    "命令行/zsh.md",
+    "cpp.md",
+    "vdbench/vdbench 调查日志.md",
+    "2022-10-08 meta crash.md",
+    "raft.md",
+    "vdbench/2022-07-13 数据不一致.md"
+  ]
+}

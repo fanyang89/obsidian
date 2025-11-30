@@ -1,0 +1,42 @@
+/* center image */
+/* reading view */
+a.tag {
+  line-height: 2.6;
+}
+
+/* live preview */
+span.cm-hashtag.cm-hashtag {
+  line-height: 2.6;
+}
+/* center image */
+
+/* max width for view */
+.markdown-source-view,
+.markdown-preview-view {
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* feishu */
+/* 选择器，用于限定样式的作用范围，:not(……)表示不作用的例外情况 */
+.cm-content >.cm-line:not( /* 应用于所有正文中的段落 */
+.HyperMD-codeblock,
+.HyperMD-header) /* 不应用于代码块和标题 */
+
+
+/*以下是样式代码，em代表相对于字号的大小，例如0.5em表示字体的一半大*/
+/*可更换为其他单位，例如px，rem等 */ {
+  padding-top: 0.25em; /* 段前间距（内边距） */
+  padding-bottom: 0.25em; /* 段后间距（内边距） */
+  line-height: 1.7em;
+  font-weight: 350;
+  letter-spacing: 0.03em;
+}
+
+.cm-content > .HyperMD-header {
+  padding-top: 0.5em !important; /* 段前间距（内边距） */
+  padding-bottom: 0.25em !important; /* 段后间距（内边距） */
+  line-height: 1.7em;
+  font-weight: 450;
+}
+/* feishu */

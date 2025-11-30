@@ -1,0 +1,20 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.hasTag("api-key")
+    order:
+      - file.name
+      - base_url
+      - models
+      - key
+    properties:
+      - name
+      - tags
+      - created
+      - base_url
+      - key
+    columnSize:
+      file.name: 169
+      note.base_url: 248

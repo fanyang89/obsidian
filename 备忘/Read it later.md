@@ -1,0 +1,14 @@
+#pin
+
+# 降低 LSM Tree 写放大
+
+| Title                                                                                                                     | Abstract summary                                                                                                                                         |
+| ------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| A Light-weight Compaction Tree to Reduce I / O Amplification toward Efficient Key-Value Stores                            | Light-weight compaction drastically decreases write amplification by appending data in a table and only merging the metadata that has much smaller size. |
+| KVSSD: Close integration of LSM trees and flash translation layer for write-efficient KV store                            | LSM trees are a write-optimized data structure for lightweight, high-performance Key-Value store.                                                        |
+| Integrating LSM Trees With Multichip Flash Translation Layer for Write-Efficient KVSSDs                                   | LSM-SSD integrated design reduced the write amplification by 86% and improved the throughput by 383% compared with a conventional LSM-over-SSD design.   |
+| Closing the B-tree vs. LSM-tree Write Amplification Gap on Modern Storage Hardware with Built-in Transparent Compression  | The proposed design techniques can reduce the B-tree write amplification by over 10x.                                                                    |
+| Reducing Write Amplification of LSM-Tree with Block-Grained Compaction                                                    | Block-grained merging policy performs compaction operations on the LSM-tree.                                                                             |
+| SFM: Mitigating Read/Write Amplification Problem of LSM-Tree-Based Key-Value Stores                                       | The spatially fragmented LSM-tree scheme delays merge operations only for the non-read-intensive key-spaces.                                             |
+| Closing the B+-tree vs. LSM-tree Write Amplification Gap on Modern Storage Hardware with Built-in Transparent Compression | The proposed design techniques can reduce the B+-tree write amplification by over 10 times.                                                              |
+| LLSM: A Lifetime-Aware Wear-Leveling for LSM-Tree on NAND Flash Memory                                                    | LSM-tree is not efficient for SSDs because it is not aware of the access characteristics of flash memory.                                                |
