@@ -51,11 +51,9 @@ ZBS Inspector 使用 metric API v2 框架，主要类型为 Gauge（仪表盘指
 更新逻辑 (data_insight_metric_context.cc:93-147)
 
 1. 状态判断: 比较 nfs_target_ip 与 local_scvm_data_ip
-
-
-    - 相等 → 状态为 0（正常）
-    - 不相等 → 状态为 2（路由切换）
-    - 无心跳 → 状态为 1（未连接）
+   - 相等 → 状态为 0（正常）
+   - 不相等 → 状态为 2（路由切换）
+   - 无心跳 → 状态为 1（未连接）
 
 2. TTL 管理: 每秒递减，归零时清理过期状态
 3. Metric 缓存: 动态创建和销毁 metric 实例，避免内存泄漏
