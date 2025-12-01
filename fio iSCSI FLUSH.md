@@ -46,4 +46,3 @@ Run status group 0 (all jobs):
 Disk stats (read/write):
   sdg: ios=23/531, merge=0/0, ticks=8/11608, in_queue=11161, util=99.20%
 ```
-

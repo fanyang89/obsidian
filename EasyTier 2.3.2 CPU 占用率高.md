@@ -30,4 +30,3 @@ cat et.log | grep 'wait resp error' | awk '{print $14}' | awk -F: '{print $2}' |
 # ban the IPs
 
 ```
-

@@ -123,7 +123,6 @@ Found expected sequence 4376, type 2 (commit block) at block 44620
 No magic number at block 44621: end of journal.
 ```
 
-
 ```bash
 -> % ssh fedora-yl
 root@yl-readtest:~# uname -r

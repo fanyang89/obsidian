@@ -96,4 +96,3 @@ root@yl-readtest:/mnt/data# perf stat -r 1000 --null sg_sync /dev/sda
 ![[Pasted image 20250819130641.png]]
 
 Guest OS 设置的读写比是 3:2，实际上变成了 13:1
-

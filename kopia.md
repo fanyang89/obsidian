@@ -4,4 +4,3 @@ kopia repository create s3 --bucket=kopia \
 --secret-access-key=KyNFfnTqWJvrS64tEZdBMLYmsPRjCgl9205QU1b7 \
 --endpoint 10.1.2.101:9000 --disable-tls
 ```
-

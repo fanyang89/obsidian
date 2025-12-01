@@ -13,4 +13,3 @@ Can create buckets:  false
 ==== BUCKETS FOR THIS KEY ====
 Permissions  ID  Global aliases  Local aliases
 ```
-

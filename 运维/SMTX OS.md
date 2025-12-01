@@ -134,7 +134,6 @@ mailx
 python -c 'import glob, os; a = glob.glob("./*/"); list(map(lambda xy: os.rename(xy[0], xy[1]), filter(lambda xy: xy[1].count("_") == 3, [(x, y[: y.rfind("_")]) for (x, y) in zip(a, a)])))'
 ```
 
-
 ## 更新 cluster uuid
 
 ```

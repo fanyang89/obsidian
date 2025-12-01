@@ -7,7 +7,6 @@
 {"status":"success","data":{"version":"2.37.5","revision":"1c2f7554ed6bb4136bfac64fc8e5522e050a987a","branch":"release-2.37","buildUser":"root@yingjie-dev","buildDate":"20240507-10:39:32","goVersion":"go1.21.4"}}
 ```
 
-
 ```
   PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+  P COMMAND
 27309 root      20   0 2545104 389524  77472 S   1.0  0.1 142:53.94  5 prometheus
@@ -127,10 +126,9 @@ task: [get-version] curl http://127.0.0.1:9090/api/v1/status/buildinfo
 
 内存占用 344M
 
-
 ## Rate 占用
 
-Initial RSS: 
+Initial RSS:
 
 ```
 # index=1

@@ -59,7 +59,7 @@ qemu-img create -f qcow2 /var/lib/libvirt/images/kworker_test.qcow2 20G
       <target dev='vda' bus='virtio'/>
       <boot order='2'/>
     </disk>
-    
+
     <disk type='file' device='disk'>
       <alias name='disk1'/>
       <driver name='qemu' type='raw' cache='none' io='native'/>
@@ -83,4 +83,3 @@ qemu-img create -f qcow2 /var/lib/libvirt/images/kworker_test.qcow2 20G
   </devices>
 </domain>
 ```
-

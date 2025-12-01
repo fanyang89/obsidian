@@ -1,4 +1,3 @@
-
 ```
 GET /kms/kmip/A  {}
 
@@ -26,10 +25,10 @@ GET    /kms
 	id:   KMS-AWS-123
 	name: f
 	descprtion:
-	
+
 	kmip: null
 	aws:  {
-	
+
 	}
 }
 

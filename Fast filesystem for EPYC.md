@@ -23,7 +23,6 @@ H/W path              Device           Class          Description
 /0/100/1.4/0          /dev/nvme14      storage        Samsung SSD 990 EVO Plus 1TB
 ```
 
-
 ```bash
 sudo parted /dev/nvme10n1 -s mklabel gpt
 

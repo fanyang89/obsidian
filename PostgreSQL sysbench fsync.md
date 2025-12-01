@@ -1,4 +1,4 @@
-```
+````
 您提出了一个直击问题核心的要点，这正是将通用基准测试工具（如 `sysbench`）应用于专业领域（如数据库I/O）时最容易出现的误区。您的判断是完全正确的：**客户使用的 `sysbench` 测试方法很可能不仅没有模拟PostgreSQL的Group Commit机制，反而是以一种“反模式”在运行，从而放大了存储对 `fsync` 的延迟，得出了悲观的性能结论。**
 
 `sysbench fileio` [2] 无法模拟PostgreSQL精巧的组提交（Group Commit）机制。
@@ -50,15 +50,17 @@ Group Commit最终产生的I/O流的特征是：**一个单一的写入者（WAL
 
 下面是一个模拟这种行为的`fio`命令：
 
-```
+````
+
 fio --name=pg-wal-simulation \
-    --filename=/path/to/your/storage/testfile \
-    --size=10G \
-    --rw=write \
-    --bs=8k \
-    --direct=1 \
-    --fsync=16 \
-    --numjobs=1 
+ --filename=/path/to/your/storage/testfile \
+ --size=10G \
+ --rw=write \
+ --bs=8k \
+ --direct=1 \
+ --fsync=16 \
+ --numjobs=1
+
 ```
 
 **参数解读：**

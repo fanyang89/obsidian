@@ -11,6 +11,7 @@ pgbench -t 1000 -c 10 --protocol simple -P 1
 ## WAL 跟 Data 一个卷
 
 - xfs
+
 ### write through
 
 ```bash
@@ -91,7 +92,6 @@ tps = 1570.429070 (excluding connections establishing)
 -M, --protocol=simple|extended|prepared
                          protocol for submitting queries (default: simple)
 ```
-
 
 ## 无法设置 write back
 
@@ -287,7 +287,6 @@ latency stddev = 8.610 ms
 tps = 12741.412877 (including connections establishing)
 tps = 12744.798847 (excluding connections establishing)
 ```
-
 
 ![[Pasted image 20250821194928.png]]
 

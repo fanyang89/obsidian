@@ -38,8 +38,7 @@ ZOOAPI int zoo_adelete(zhandle_t *zh, const char *path, int version,
 - io thread：do_io
   - close_requested 为 false，则一直运行
   - read/write socket，塞进 to_process 队列
-  - poll to_process 队列：
-    -
+  - ## poll to_process 队列：
 - completion thread：do_completion
 
 # 什么情况下 completion 不会被调用？

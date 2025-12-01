@@ -12,7 +12,7 @@ slmgr /ipk <product key>
 # CB7KF-BWN84-R7R2Y-793K2-8XDDG  Windows Server 2016 Datacenter
 # M7XTQ-FN8P6-TTKYV-9D4CC-J462D  Windows 10 企业版 LTSC 2021
 # W269N-WFGWX-YVC9B-4J6C9-T83GX  Windows 10 专业版
-# 
+#
 slmgr /ato
 
 # 启动 zoonavigator

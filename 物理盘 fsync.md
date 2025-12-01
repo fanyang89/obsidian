@@ -251,6 +251,7 @@ Threads fairness:
     events (avg/stddev):           218599.5500/1174.76
     execution time (avg/stddev):   9.8496/0.00
 ```
+
 ### fdatasync
 
 ```shell
