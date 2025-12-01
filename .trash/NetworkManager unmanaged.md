@@ -1,3 +1,0 @@
-```bash
-nmcli n on
-```

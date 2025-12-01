@@ -1,5 +1,0 @@
-- 环境简介：网络拓扑等
-- ESXi + ZBS 部署
-- NBU Master 部署
-- NBU Media 部署
-- 常见问题
